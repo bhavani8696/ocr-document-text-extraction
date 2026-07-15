@@ -1,10 +1,9 @@
-streamlit
+flask
+flask-cors
+gunicorn
 easyocr
 opencv-python-headless
 pillow
 numpy
-pandas
-torch
-torchvision
-flask
-flask-cors
+torch==2.2.2
+torchvision==0.17.2

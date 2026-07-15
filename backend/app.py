@@ -4,7 +4,9 @@ import easyocr
 
 app = Flask(__name__)
 CORS(app)
-
+@app.route("/")
+def home():
+    return "OCR Document Text Extraction API is Running"
 # OCR Reader
 reader = easyocr.Reader(['en'])
 

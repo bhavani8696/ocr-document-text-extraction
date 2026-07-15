@@ -1,8 +1,8 @@
-flask
-flask-cors
+streamlit
 easyocr
-torch
-torchvision
-opencv-python
+opencv-python-headless
 pillow
 numpy
+pandas
+torch
+torchvision
